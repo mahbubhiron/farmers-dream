@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:icon="@drawable/home"
+            android:title="হোম"
+            />
+        <item
+            android:id="@+id/settings_id"
+            android:icon="@drawable/seting"
+            android:title="সেটিংস" />
+        <item
+            android:id="@+id/jogajog_id"
+            android:icon="@drawable/jogajog"
+            android:title="যোগাযোগ করুন" />
+
+
+        <item
+            android:id="@+id/baboharbidi_id"
+            android:icon="@drawable/app_somporkhe"
+            android:title="ব্যাবহারবিধি" />
+        <item
+            android:id="@+id/logout_id"
+            android:icon="@drawable/logout"
+            android:title="বের হন" />
+
+    </group>
+
+
+</menu>

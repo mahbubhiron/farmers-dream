@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farmers_dream">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Profile_Change_Activity"></activity>
+        <activity android:name=".Password_Change_Activity" />
+        <activity android:name=".Apps_Shomporkhito_Activity" />
+        <activity android:name=".Motamot_Activity" />
+        <activity android:name=".Baboharbidi_Activity" />
+        <activity android:name=".Jogajog_Activity" />
+        <activity android:name=".Settings_Activity" />
+        <activity android:name=".KalojirarRogBalaiDescriptionActivity" />
+        <activity android:name=".HoluderRogBalaiDescriptionActivity" />
+        <activity android:name=".AdarRogBalaiDescriptionActivity" />
+        <activity android:name=".MoricerRogBalaiDescriptionActivity" />
+        <activity android:name=".RosunerRogBalaiDescriptionActivity" />
+        <activity android:name=".PeyajerRogBalaiDescriptionActivity" />
+        <activity android:name=".KalojirarRogBalaiActivity" />
+        <activity android:name=".HoluderRogBalaiActivity" />
+        <activity android:name=".AdarRogBalaiActivity" />
+        <activity android:name=".MoricerRogBalaiActivity" />
+        <activity android:name=".RosunerRogBalaiActivity" />
+        <activity android:name=".PeyajerRogBalaiActivity" />
+        <activity android:name=".FulcopirRogBalaiDescriptionActivity" />
+        <activity android:name=".LauerRogBalaiDescriptionActivity" />
+        <activity android:name=".PuishakerRogBalaiDescriptionActivity" />
+        <activity android:name=".GajorerRogBalaiDescriptionActivity" />
+        <activity android:name=".TometorRogBalaiDescriptionActivity" />
+        <activity android:name=".BegunerRogBalaiDescriptionActivity" />
+        <activity android:name=".FulkopirRogBalaiActivity" />
+        <activity android:name=".LauerRogBalaiActivity" />
+        <activity android:name=".PuishakerRogBalaiActivity" />
+        <activity android:name=".GajorerRogBalaiActivity" />
+        <activity android:name=".TometorRogBalaiActivity" />
+        <activity android:name=".BegunerRogBalaiActivity" />
+        <activity android:name=".OnnannoActivity" />
+        <activity android:name=".MoslaActivity" />
+        <activity android:name=".SobjiActivity" />
+        <activity android:name=".SurjomukhirRogBalaiDescriptionActivity" />
+        <activity android:name=".RojonigondharRogBalaiDescriptionActivity" />
+        <activity android:name=".KusumFulerRogBalaiDescriptionActivity" />
+        <activity android:name=".JobaFulerRogBalaiDescriptionActivity" />
+        <activity android:name=".GolapFulerRogBalaiDescriptionActivity" />
+        <activity android:name=".GadaFulerRogBalaiDescriptionActivity" />
+        <activity android:name=".PeperRogBalaiDescriptionActivity" />
+        <activity android:name=".KathalerRogBalaiDescriptionActivity" />
+        <activity android:name=".LicurRogBalaiDescriptionActivity" />
+        <activity android:name=".KolarRogBalaiDescriptionActivity" />
+        <activity android:name=".JamerRogBalaiDescriptionActivity" />
+        <activity android:name=".AmerRogBalaiDescriptionActivity" />
+        <activity android:name=".SorisarRogBalaiDescriptionActivity" />
+        <activity android:name=".AkherRogBalaiDescriptionActivity" />
+        <activity android:name=".VuttarRogBalaiDescriptionActivity" />
+        <activity android:name=".GomerRogBalaiDescriptionActivity" />
+        <activity android:name=".PatherRogBalaiDescriptionActivity" />
+        <activity android:name=".SurjomukhirRogBalaiActivity" />
+        <activity android:name=".RojonigondharRogBalaiActivity" />
+        <activity android:name=".KusumFulerRogBalaiActivity" />
+        <activity android:name=".JobaFulerRogBalaiActivity" />
+        <activity android:name=".GolapFulerRogBalaiActivity" />
+        <activity android:name=".GadaFulerRogBalaiActivity" />
+        <activity android:name=".PeperRogBalaiActivity" />
+        <activity android:name=".KathalerRogBalaiActivity" />
+        <activity android:name=".LicurRogBalaiActivity" />
+        <activity android:name=".KolarRogBalaiActivity" />
+        <activity android:name=".JamerRogBalaiActivity" />
+        <activity android:name=".AmerRogBalaiActivity" />
+        <activity android:name=".FulActivity" />
+        <activity android:name=".SorisarRogBalaiActivity" />
+        <activity android:name=".AkherRogBalaiActivity" />
+        <activity android:name=".VuttarRogBalaiActivity" />
+        <activity android:name=".PatherRogBalaiActivity" />
+        <activity android:name=".GomerRogBalaiActivity" />
+        <activity android:name=".DhanerRogBalaiDescription" />
+        <activity android:name=".FolActivity" />
+        <activity android:name=".DhanerRogBalaiActivity" />
+        <activity android:name=".MathFosolActivity" />
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".Register_activity" />
+        <activity android:name=".Akok_Nirdaron_Activity" />
+        <activity android:name=".Akok_Nirdaron_Activity_2" />
+        <activity android:name=".Akok_Nirdaron_Activity_3" />
+        <activity android:name=".Akok_Nirdaron_Activity_4" />
+        <activity android:name=".LandTypePageActivity" />
+        <activity android:name=".Square_and_Rectangl_ecalculation" />
+        <activity android:name=".Trapezoid_Area_Calculate_Activity" />
+        <activity android:name=".Triangle_ecalculation_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScrennActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

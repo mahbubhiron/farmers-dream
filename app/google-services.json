@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "73892939857",
+    "firebase_url": "https://farmers-dream.firebaseio.com",
+    "project_id": "farmers-dream",
+    "storage_bucket": "farmers-dream.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73892939857:android:adf593f4b1a18776355070",
+        "android_client_info": {
+          "package_name": "com.example.farmers_dream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73892939857-ffnh5sp7vfc5sa0lgk1kar4rhliq1ien.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxUA8WB9M6hc0P0aXlOMEWVu5jFaARu7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73892939857-ffnh5sp7vfc5sa0lgk1kar4rhliq1ien.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

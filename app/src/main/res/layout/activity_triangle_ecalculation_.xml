@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dhan"
+    tools:context=".Triangle_ecalculation_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_and_textview_shape"
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="প্রথম দৈর্ঘ্য দিনঃ  "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#070707"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/square_and_rectange_prothom_dorgo_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/edittext_shape"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="দৈর্ঘ্য"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_and_textview_shape"
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="দ্বিতীয় দৈর্ঘ্য দিনঃ   "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#070707"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/square_and_rectange_ditio_dorgo_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/edittext_shape"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="দৈর্ঘ্য"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_and_textview_shape"
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="তৃতীয় দৈর্ঘ্য দিনঃ   "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#070707"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/square_and_rectange_tritio_dorgo_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/edittext_shape"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="দৈর্ঘ্য"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/calculate_btn_id"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="0"
+                android:text="হিসাব করুন"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#010101"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/clear_btn_id"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="0"
+                android:text="মুছে ফেলুন"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#010101"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="ফলাফল দেখুন"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#05C8AB"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:rotation="-90"
+                    android:text="অঞ্চল"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/khetrofol_textview_id"
+                        android:layout_width="155dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#111111"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/sotangsho_textview_id"
+                        android:layout_width="155dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#111111"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:textColor="#FCFCFCFC"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/katha_textview_id"
+                        android:layout_width="155dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#111111"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:textColor="#FCFCFCFC"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/bigha_textview_id"
+                        android:layout_width="155dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#111111"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:textColor="#FCFCFCFC"
+                        android:textSize="30sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edittext_and_textview_shape"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="ক্ষেত্রফল"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edittext_and_textview_shape"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="শতাংশ"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edittext_and_textview_shape"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="কাঠা"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edittext_and_textview_shape"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="বিঘা"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
